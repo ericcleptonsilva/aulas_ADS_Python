@@ -1,0 +1,14 @@
+# tratamento de erro
+# FileNotFoundError
+# try/except ou try/except/finally
+
+
+try:
+    codigo que pode gerar uma exceção
+except Erro1 as erro:
+    codigo alternativo caso Erro1
+    print(erro)
+except Erro2 as erro:
+    codigo alternativo caso Erro2
+    print(erro)
+    

@@ -1,0 +1,12 @@
+Text 1
+Text 2
+Moduloas de acesso:
+
+r: abre o arquivo para leitura
+w: abre o arquivo para escrita, truncado o arquivo primeiro
+x: cria um arquivo para escrita e falhas, caso ele exista
+a abre o arquivo para escrita, acresncentar conteúdo ao final do arquivo, caso ele exista
+b: modo binário
+t: modo texto
++: abre o arquivo para atualização (leitura ou escrita)
+
