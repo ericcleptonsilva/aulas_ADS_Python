@@ -3,10 +3,6 @@ with open("date2.txt", "r") as arquivo:
     for linha in arquivo:
         print(repr(linha))
 
-print()
-print()
-print()
-
 with open("date2.txt", "r") as arquivo:
     print("Repesentação do final da linha após o strip")
     for linha in arquivo:

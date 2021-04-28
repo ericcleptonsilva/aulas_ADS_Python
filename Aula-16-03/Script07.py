@@ -16,10 +16,10 @@ conteudo_reaberto = arquivo_reaberto.read()
 print("Todo conteúdo do arquivo novamente")
 print(repr(conteudo_reaberto), '\n')
 
+
 arquivo_reaberto.seek(0)
 conteudo_seek = arquivo_reaberto.read()
 print("Todo conteúdo do arquivo após o seek")
 print(repr(conteudo_seek), '\n')
 
-arquivo_reaberto.close() 
-
+arquivo_reaberto.close()

@@ -2,8 +2,8 @@ from datetime import date, datetime
 
 frutas = ["Jabuticaba", "Laranja", "Uva", "Banan"]
 for fruta in frutas:
-    minha_fruta = f"Nome: {fruta:12}- Número de letras ={len(fruta): 3}"  
-    print(minha_fruta) 
+    minha_fruta = f"Nome: {fruta:12}- Número de letras ={len(fruta): 3}"
+    print(minha_fruta)
 
 print()
 print()

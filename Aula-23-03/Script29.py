@@ -19,3 +19,4 @@ except FileExistsError as erro:
 except NotADirectoryError as erro:
     print("O caminho não é  de um diretório")
     
+    

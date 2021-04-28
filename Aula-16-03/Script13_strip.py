@@ -6,4 +6,3 @@ with open("date2.txt", "r") as arquivo:
         if linha.strip():
             contador +=1
     print("Total de linhas =", contador)
-    

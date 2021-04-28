@@ -5,7 +5,7 @@ texto = ", ".join(lista)
 with open("text1.txt", "w") as arquivo:
     arquivo.write(texto)
     
-texto = "\n ".join(lista)
+texto = " ".join(lista)
 
 with open("text3.txt", "w") as arquivo:
     arquivo.write(texto)
