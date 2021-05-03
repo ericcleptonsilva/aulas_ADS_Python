@@ -6,8 +6,8 @@ try:
     # abertura de conexao e aquisição
     conexao = conn.connect('meu_banco.db')
     curso = conexao.cursor()
-    # execução de criação de tabela
-    sql_comando = ''' create table usaurio(
+    # execução de comandos para a  criação de tabela
+    sql_comando = ''' create table usuarios(
                       id integer not null,
                       nome text not null,
                       senha text not null,
